@@ -1,4 +1,3 @@
-//PFont lefont;
 void setup()
   {
       size(402,450);
@@ -7,7 +6,6 @@ void setup()
   void draw()
   {
       background(#FF7979);
-      //lefont = createFont("LemonMilk.otf",40);
       int sum = 0;
       for(int y = 15; y <= 402; y = y + 134){
         for(int x = 15; x <= width; x = x + 134){
@@ -19,7 +17,6 @@ void setup()
       }
       fill(#F0EDED);
       rect(13,395,215,39);
-      //textFont(lefont);
       fill(#3E3B3B);
       text("Total: " + sum, 15,430); 
   }
@@ -27,7 +24,7 @@ void setup()
   {
       redraw();
   }
-  class Die //models one single dice cube
+  class Die 
   {
       int roll, myX, myY;
      
