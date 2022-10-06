@@ -1,7 +1,9 @@
+PFont myFont;
 void setup() // add PFont
   {
       size(402,450);
       noLoop();
+      myFont = createFont("LEMONMILK-Bold.otf");
   }
   void draw()
   {
@@ -18,7 +20,8 @@ void setup() // add PFont
       fill(#F0EDED);
       rect(13,400,115,35);
       fill(#3E3B3B);
-      textSize(30);
+      //textSize(30);
+      textFont(myFont);
       text("Total: " + sum, 15,430); 
   }
   void mousePressed()
