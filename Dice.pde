@@ -3,7 +3,7 @@ void setup() // add PFont
   {
       size(402,450);
       noLoop();
-      myFont = createFont("LEMONMILK-Bold.otf");
+      myFont = createFont("LEMONMILK-Bold.otf",30);
   }
   void draw()
   {
