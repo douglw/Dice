@@ -16,8 +16,9 @@ void setup()
         }
       }
       fill(#F0EDED);
-      rect(13,395,215,39);
+      rect(13,400,115,35);
       fill(#3E3B3B);
+      textSize(30);
       text("Total: " + sum, 15,430); 
   }
   void mousePressed()
@@ -27,10 +28,9 @@ void setup()
   class Die 
   {
       int roll, myX, myY;
-     
       Die(int x, int y) //constructor
       {
-          roll();
+          //roll();
           myX = x;
           myY = y;
       }
