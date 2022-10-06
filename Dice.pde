@@ -17,8 +17,6 @@ void setup() // add PFont
           sum = sum + die.roll;
         }
       }
-      fill(#F0EDED);
-      rect(13,400,115,35);
       fill(#3E3B3B);
       //textSize(30);
       textFont(myFont);
