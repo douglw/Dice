@@ -1,4 +1,4 @@
-void setup()
+void setup() // add PFont
   {
       size(402,450);
       noLoop();
